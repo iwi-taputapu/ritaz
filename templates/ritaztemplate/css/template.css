@@ -52,11 +52,12 @@ a {text-decoration: none}
 main > .mdl-grid {min-width: 304px}
 @media (max-width: 1024px) {.blog {margin-top: 35px} .introduce {display: none} }
 @media (max-width: 380px) {.blog img, .item-page img {width: 90%; height: auto}}
-.items-leading, .span6, .item-page {width: 100%; padding: 10px 30px; margin-bottom: 50px}
+.items-leading, .span6, .item-page {width: 100%; padding: 10px 30px; margin-top: 35px}
 .item-page .page-header {text-align: center}
 ul.category {list-style: none}
 ul.category > li {height: 55px}
-ul.category hr {height: 2px; background-color: #2196F3 !important; border: none; opacity: 0.7}
+ul.category > li > h3:before {content: url(../images/tags/cross_mark.png);}
+
 .mdl-textfield__label {font-weight: 600 !important}
 
 .article-info-term {display: none}
@@ -65,3 +66,17 @@ ul.category hr {height: 2px; background-color: #2196F3 !important; border: none;
 .tags > .mdl-button > .label {color: white !important; font-weight: bold; font-size: 13px}
 .tags > .mdl-button {padding: 0 5px; height: 25px; line-height: 25px; min-width: 10px; margin: 7.5px 2.5px 0 2.5px}
 .readmore {font-size: 18px; font-family: 'Beermoney'}
+.pager {padding-left: 0}
+.previous {float: right}
+.next {float: left}
+.previous, .next {list-style: none; font-family: 'Beermoney'; font-size: 20px !important}
+.previous:after { content: url(../images/articles/arrow_next.png); display: inline-block; vertical-align: middle }
+.next:before { content: url(../images/articles/arrow_prev.png); display: inline-block; vertical-align: middle }
+@media (max-width: 600px) {
+.previous, .next {display: block; width: 100%; text-align: left}
+.next {padding-left: 0; margin-top: 10px}
+.previous:after, .next:before {content: none}
+.previous:before {content: url(../images/articles/arrow_up.png); display: inline-block; vertical-align: middle }
+.next:before {content: url(../images/articles/arrow_down.png); display: inline-block; vertical-align: middle }
+	}
+/*.icon-chevron-left, .icon-chevron-right {display: none}*/

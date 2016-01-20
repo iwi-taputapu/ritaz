@@ -70,7 +70,6 @@ $n = count($this->items);
 				<?php echo $item->event->afterDisplayContent; ?>
 			<?php endif; ?>
 				</li>
-				<hr>
 		<?php endforeach; ?>
 	</ul>
 
