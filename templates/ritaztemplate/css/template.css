@@ -12,13 +12,11 @@ a {text-decoration: none}
 .red {color: #F44336}
 .blue {color: #2196F3}
 .mdl-typography--text-justify {text-align: justify}
+.padding-100 {padding: 0 50px}
+.padding-50 {padding: 0 100px} 
 @media (max-width: 640px) {
 .padding-100 {padding: 0}
 .padding-50 {padding: 0}
-}
-@media (min-width: 640px) {
-.padding-100 {padding: 0 50px}
-.padding-50 {padding: 0 100px} 
 }
 .preloader {position: fixed; left: 0; right: 0; top: 0; bottom: 0; background-color: #fff; z-index: 1001}
 .preloader .mdl-spinner {position: absolute; left: 50%; top: 50%; margin-left: -14px; margin-top: -14px}
@@ -54,7 +52,7 @@ a {text-decoration: none}
 main > .mdl-grid {min-width: 304px}
 @media (max-width: 1024px) {.blog {margin-top: 35px} .introduce {display: none} }
 @media (max-width: 380px) {.blog img, .item-page img {width: 90%; height: auto}}
-.items-leading, .items-row, .item-page {width: 100%; padding: 10px 30px; margin-bottom: 50px}
+.items-leading, .span6, .item-page {width: 100%; padding: 10px 30px; margin-bottom: 50px}
 .item-page .page-header {text-align: center}
 ul.category {list-style: none}
 ul.category > li {height: 55px}

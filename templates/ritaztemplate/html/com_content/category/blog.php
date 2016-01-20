@@ -76,9 +76,9 @@ JHtml::_('behavior.caption');
 			<?php $rowcount = ((int) $key % (int) $this->columns) + 1; ?>
 			<?php if ($rowcount == 1) : ?>
 				<?php $row = $counter / $this->columns; ?>
-				<div class="items-row mdl-card mdl-shadow--2dp cols-<?php echo (int) $this->columns; ?> <?php echo 'row-' . $row; ?> row-fluid clearfix">
+				<div class="items-row cols-<?php echo (int) $this->columns; ?> <?php echo 'row-' . $row; ?> row-fluid clearfix">
 			<?php endif; ?>
-			<div class="span<?php echo round((12 / $this->columns)); ?>">
+			<div class="span<?php echo round((12 / $this->columns)); ?> mdl-card mdl-shadow--2dp clearfix">
 				<div class="item column-<?php echo $rowcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?>"
 					itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 					<?php

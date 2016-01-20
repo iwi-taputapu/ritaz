@@ -7,16 +7,31 @@
 	src: url(../fonts/beermoney.ttf);
 }
 body {font-family: 'Roboto' !important}
+.beermoney {font-family: 'Beermoney'}
+.text-center {text-align: center}
 .main {width: 100%}
-.mdl-grid {padding-top: 0}
-.mdl-card {height: 450px; width: 40% !important; margin: 0 auto; margin-top: 30px}
+hr {margin: 0 !important}
+.container {width: 100%; height: 416px; overflow: hidden}
+.button-grid {height: 32px; padding-top: 5px !important; padding-bottom: 5px !important}
+.button-grid > .mdl-cell {margin-top: 0; margin-bottom: 0; height: 32px !important}
+.mdl-button--fab {width: 32px !important; min-width: 32px !important; height: 32px !important}
+.slideshow {margin-top: -416px}
+.mdl-grid {padding-top: 0; padding-bottom: 0;
+	-webkit-transition: all linear 0.5s;
+	-moz-transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	transition: all linear 0.5s}
+.mdl-grid.ng-move {
+	transform: translateY(416px);
+}
+.mdl-card {height: 400px; width: 100% !important; margin: 0 auto}
 .mdl-card__title-text {
   -webkit-align-self: flex-start !important; 
       -ms-flex-item-align: start !important;
           align-self: flex-start !important}
 
-.cat, .wolf, .deer, .different {background-position: center center; background-repeat: no-repeat; background-size: contain}
-.cat {background-image: url(../images/cat.png)}
-.wolf {background-image: url(../images/wolf.png)}
-.deer {background-image: url(../images/deer.png)}
-.different {background-image: url(../images/wild.png)}
+.cat1, .cat2, .cat3, .cat4 {background-position: center center; background-repeat: no-repeat; background-size: contain}
+.cat1 {background-image: url(../images/1.png)}
+.cat2 {background-image: url(../images/2.png)}
+.cat3 {background-image: url(../images/3.png)}
+.cat4 {background-image: url(../images/4.png)}
