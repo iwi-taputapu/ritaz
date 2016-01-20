@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Beermoney;
+	src: url(../fonts/beermoney.ttf);
+}
+body {font-family: 'Roboto' !important}
+.main {width: 100%}
+.mdl-grid {padding-top: 0}
+.mdl-card {height: 320px; width: 100% !important; margin-top: 40px}
+.mdl-card__title-text {
+  -webkit-align-self: flex-start !important; 
+      -ms-flex-item-align: start !important;
+          align-self: flex-start !important}
+
+.mouse, .cat, .dog, .horse {background-position: right bottom; background-repeat: no-repeat; background-size: contain}
+.mouse {background-color: #FFD600; background-image: url(../images/mouse.png)}
+.cat {background-color: #FF1744; background-image: url(../images/cat.png)}
+.dog {background-color: #76FF03; background-image: url(../images/dog.png)}
+.horse {background-color: #9C27B0; background-image: url(../images/horse.png)}

@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Beermoney;
+	src: url(../fonts/beermoney.ttf);
+}
+body {font-family: 'Roboto' !important}
+.main {width: 100%}
+.mdl-grid {padding-top: 0}
+.mdl-card {height: 450px; width: 40% !important; margin: 0 auto; margin-top: 30px}
+.mdl-card__title-text {
+  -webkit-align-self: flex-start !important; 
+      -ms-flex-item-align: start !important;
+          align-self: flex-start !important}
+
+.cat, .wolf, .deer, .different {background-position: center center; background-repeat: no-repeat; background-size: contain}
+.cat {background-image: url(../images/cat.png)}
+.wolf {background-image: url(../images/wolf.png)}
+.deer {background-image: url(../images/deer.png)}
+.different {background-image: url(../images/wild.png)}

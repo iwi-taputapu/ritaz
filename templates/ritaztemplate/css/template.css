@@ -1,0 +1,69 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Beermoney;
+	src: url(../fonts/beermoney.ttf);
+}
+body {font-family: 'Roboto' !important; background-image: url(../images/background.png)}
+a {text-decoration: none}
+.beermoney, h1, h2, h3, h4, h5, h6 {font-family: 'Beermoney' !important}
+.red {color: #F44336}
+.blue {color: #2196F3}
+.mdl-typography--text-justify {text-align: justify}
+@media (max-width: 640px) {
+.padding-100 {padding: 0}
+.padding-50 {padding: 0}
+}
+@media (min-width: 640px) {
+.padding-100 {padding: 0 50px}
+.padding-50 {padding: 0 100px} 
+}
+.preloader {position: fixed; left: 0; right: 0; top: 0; bottom: 0; background-color: #fff; z-index: 1001}
+.preloader .mdl-spinner {position: absolute; left: 50%; top: 50%; margin-left: -14px; margin-top: -14px}
+
+.introduce {margin-bottom: 20px}
+.introduce > div {display: inline-block; vertical-align: top; border-radius: 50%; background-color: white; text-align: center}
+.introduce > div > img {height: 60%; width: auto; margin-top: 20%}
+.introduce-in1 {height: 30px; width: 30px; margin-top: 70px; margin-left: 4%}
+.introduce-in2 {height: 60px; width: 60px; margin-top: 40px; margin-left: 2%}
+.introduce-in3 {height: 90px; width: 90px; margin-top: 70px; margin-left: 1%}
+.introduce-in4 {height: 120px; width: 120px; margin-top: 120px; margin-left: 1%}
+.introduce-in5 {height: 70px; width: 70px; margin-top: 200px; margin-left: 1%}
+.introduce-in6 {height: 30px; width: 30px; margin-top: 250px; margin-left: 2%}
+.introduce-in7 {height: 20px; width: 20px; margin-top: 235px; margin-left: 2%}
+.introduce-in8 {height: 10px; width: 10px; margin-top: 210px; margin-left: 1%}
+.introduce-in9 {height: 64px; width: 64px; margin-top: 170px; margin-left: -0.2%; opacity: 0;
+	-webkit-transition: all 0.5s ease 0.7s;
+	-moz-transition: all 0.5s ease 0.7s;
+	-o-transition: all 0.5s ease 0.7s;
+	transition: all 0.5s ease 0.7s}
+.introduce > div.introduce-in9 {border-radius: 0; background-color: transparent; background-image: url(../images/header_balls/header_asteroid.png); background-repeat: no-repeat}
+
+.mdl-layout__drawer > .mdl-layout-title {font-size: 40px; padding-left: 30px}
+.mdl-layout__drawer-button > i {color: #212121}
+.mdl-layout-title a {text-decoration: none; text-align: center}
+.follow {height: 60px; width: 60px; position: absolute; left: 10px; bottom: 0}
+.follow > a > img {height: 100%; width: auto}
+
+.tags_menu > .nav {padding: 0}
+.mdl-navigation {padding-top: 0 !important}
+.mdl-navigation > .mdl-navigation__link {font-size: 18px}
+
+main > .mdl-grid {min-width: 304px}
+@media (max-width: 1024px) {.blog {margin-top: 35px} .introduce {display: none} }
+@media (max-width: 380px) {.blog img, .item-page img {width: 90%; height: auto}}
+.items-leading, .items-row, .item-page {width: 100%; padding: 10px 30px; margin-bottom: 50px}
+.item-page .page-header {text-align: center}
+ul.category {list-style: none}
+ul.category > li {height: 55px}
+ul.category hr {height: 2px; background-color: #2196F3 !important; border: none; opacity: 0.7}
+.mdl-textfield__label {font-weight: 600 !important}
+
+.article-info-term {display: none}
+.tags {padding-left: 0}
+.published {margin-left: 0}
+.tags > .mdl-button > .label {color: white !important; font-weight: bold; font-size: 13px}
+.tags > .mdl-button {padding: 0 5px; height: 25px; line-height: 25px; min-width: 10px; margin: 7.5px 2.5px 0 2.5px}
+.readmore {font-size: 18px; font-family: 'Beermoney'}
